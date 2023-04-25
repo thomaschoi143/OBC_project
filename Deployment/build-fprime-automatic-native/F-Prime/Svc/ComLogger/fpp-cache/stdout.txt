@@ -1,6 +1,0 @@
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Cmd/Cmd.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Com/Com.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Time/Time.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Ping/Ping.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/config/FpConfig.fpp

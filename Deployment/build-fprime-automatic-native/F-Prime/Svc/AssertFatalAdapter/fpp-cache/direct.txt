@@ -1,2 +1,0 @@
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/AssertFatalAdapter/AssertFatalEvents.fppi

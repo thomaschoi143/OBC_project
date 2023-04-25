@@ -1,8 +1,0 @@
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Cmd/Cmd.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Tlm/Tlm.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Types/Types.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Ping/Ping.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Sched/Sched.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/WatchDog/WatchDog.fpp
-/Users/thomas/Desktop/OBC/OBC_project/fprime/config/AcConstants.fpp

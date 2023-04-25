@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../lib/Darwin/libComponents_PacketSender.a CMakeFiles/Components_PacketSender.dir/PacketSender.cpp.o CMakeFiles/Components_PacketSender.dir/PacketSenderComponentAc.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../lib/Darwin/libComponents_PacketSender.a

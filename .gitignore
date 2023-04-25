@@ -1,1 +1,6 @@
 build-fprime-automatic-native/
+.DS_Store
+Deployment/build-artifacts/
+Deployment/build-fprime-automatic-native/
+Deployment/logs/
+fprime/

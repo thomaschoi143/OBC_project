@@ -1,2 +1,0 @@
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Drv/LinuxSpiDriver/Events.fppi
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Drv/LinuxSpiDriver/Telemetry.fppi

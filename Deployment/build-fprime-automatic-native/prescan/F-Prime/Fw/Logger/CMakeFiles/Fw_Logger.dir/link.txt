@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../lib/Darwin/libFw_Logger.a CMakeFiles/Fw_Logger.dir/Users/thomas/Desktop/OBC/OBC_project/fprime/cmake/empty.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../lib/Darwin/libFw_Logger.a

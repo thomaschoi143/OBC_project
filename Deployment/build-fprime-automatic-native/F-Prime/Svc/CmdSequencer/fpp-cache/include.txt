@@ -1,3 +1,0 @@
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/CmdSequencer/Commands.fppi
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/CmdSequencer/Events.fppi
-/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/CmdSequencer/Telemetry.fppi
