@@ -1,0 +1,32 @@
+TCP Socket Server listening on host addr 0.0.0.0, port 50050
+Registered client FSW_
+Registration complete waiting for message.
+Registered client GUI_
+Registration complete waiting for message.
+Ctrl-C received, server shutting down.
+socket timed out and shutdown is requested
+Quit received!
+read data from socket is empty!
+Header information is empty, client GUI_ exiting.
+Quit processed!
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 50515)
+Traceback (most recent call last):
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/socketserver.py", line 683, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/Users/thomas/Desktop/OBC/OBC_project/venv/lib/python3.9/site-packages/fprime_gds/executables/tcpserver.py", line 95, in handle
+    self.getNewMsg()
+  File "/Users/thomas/Desktop/OBC/OBC_project/venv/lib/python3.9/site-packages/fprime_gds/executables/tcpserver.py", line 188, in getNewMsg
+    SERVER.server_close()
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/socketserver.py", line 701, in server_close
+    self._threads.join()
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/socketserver.py", line 647, in join
+    thread.join()
+  File "/Users/thomas/opt/anaconda3/lib/python3.9/threading.py", line 1050, in join
+    raise RuntimeError("cannot join current thread")
+RuntimeError: cannot join current thread
+----------------------------------------

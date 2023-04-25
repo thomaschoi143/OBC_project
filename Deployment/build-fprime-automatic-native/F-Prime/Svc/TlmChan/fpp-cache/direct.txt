@@ -1,0 +1,4 @@
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Com/Com.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Tlm/Tlm.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Ping/Ping.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Sched/Sched.fpp

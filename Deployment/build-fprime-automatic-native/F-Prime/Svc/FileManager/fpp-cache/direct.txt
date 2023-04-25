@@ -1,0 +1,7 @@
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Cmd/Cmd.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Tlm/Tlm.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/FileManager/Commands.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/FileManager/Events.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/FileManager/Telemetry.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Ping/Ping.fpp

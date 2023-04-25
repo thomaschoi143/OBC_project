@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../lib/Darwin/libSvc_StaticMemory.a CMakeFiles/Svc_StaticMemory.dir/StaticMemoryComponentImpl.cpp.o CMakeFiles/Svc_StaticMemory.dir/StaticMemoryComponentAc.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../lib/Darwin/libSvc_StaticMemory.a

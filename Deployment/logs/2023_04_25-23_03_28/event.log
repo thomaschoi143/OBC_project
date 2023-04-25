@@ -1,0 +1,10 @@
+2023-04-25 23:03:57,(2(0)-1682427837:480779),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 6
+2023-04-25 23:03:57,(2(0)-1682427837:480785),packetSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Packet sending command received: {'destination': '12', 'message': 'hello'}
+2023-04-25 23:03:57,(2(0)-1682427837:480859),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-04-25 23:03:57,(2(0)-1682427837:687710),adapter.TRANSFER_FINISHED,8448,EventSeverity.ACTIVITY_HI,Transfer {'destination': '12', 'message': 'hello'} finished
+2023-04-25 23:03:57,(2(0)-1682427837:687797),packetSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Transfer result is 1
+2023-04-25 23:05:21,(2(0)-1682427921:731671),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 6
+2023-04-25 23:05:21,(2(0)-1682427921:731677),packetSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Packet sending command received: {'destination': '12', 'message': 'bye'}
+2023-04-25 23:05:21,(2(0)-1682427921:731734),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-04-25 23:05:21,(2(0)-1682427921:977015),adapter.TRANSFER_FINISHED,8448,EventSeverity.ACTIVITY_HI,Transfer {'destination': '12', 'message': 'bye'} finished
+2023-04-25 23:05:21,(2(0)-1682427921:977076),packetSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Transfer result is 1

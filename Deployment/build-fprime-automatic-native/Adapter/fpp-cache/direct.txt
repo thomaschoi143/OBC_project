@@ -1,0 +1,5 @@
+/Users/thomas/Desktop/OBC/OBC_project/DataPacket/DataPacket.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Cmd/Cmd.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Time/Time.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Tlm/Tlm.fpp

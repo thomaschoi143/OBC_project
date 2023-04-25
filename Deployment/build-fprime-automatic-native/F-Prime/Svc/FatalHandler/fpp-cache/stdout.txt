@@ -1,0 +1,2 @@
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Fatal/Fatal.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/config/FpConfig.fpp

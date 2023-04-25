@@ -1,0 +1,7 @@
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Buffer/Buffer.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Log/Log.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Time/Time.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Fw/Tlm/Tlm.fpp
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/FileUplink/Events.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/FileUplink/Telemetry.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/Ping/Ping.fpp

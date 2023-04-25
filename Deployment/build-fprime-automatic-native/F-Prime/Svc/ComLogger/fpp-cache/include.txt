@@ -1,0 +1,2 @@
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/ComLogger/Commands.fppi
+/Users/thomas/Desktop/OBC/OBC_project/fprime/Svc/ComLogger/Events.fppi

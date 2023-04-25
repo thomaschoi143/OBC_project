@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../lib/Darwin/libDataPacket.a CMakeFiles/DataPacket.dir/DataPacketSerializableAc.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../lib/Darwin/libDataPacket.a

@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../lib/Darwin/libUtils.a CMakeFiles/Utils.dir/RateLimiter.cpp.o CMakeFiles/Utils.dir/TokenBucket.cpp.o CMakeFiles/Utils.dir/LockGuard.cpp.o CMakeFiles/Utils.dir/CRCChecker.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../lib/Darwin/libUtils.a

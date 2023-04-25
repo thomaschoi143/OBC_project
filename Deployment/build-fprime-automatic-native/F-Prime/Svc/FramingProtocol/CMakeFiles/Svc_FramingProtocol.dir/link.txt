@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc ../../../lib/Darwin/libSvc_FramingProtocol.a CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib ../../../lib/Darwin/libSvc_FramingProtocol.a
