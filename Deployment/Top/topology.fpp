@@ -47,6 +47,9 @@ module Deployment {
     instance systemResources
     instance packetSender
     instance adapter
+    instance linuxI2cDriver
+    instance linuxSpiDriver
+    instance bufferManager
 
     # ----------------------------------------------------------------------
     # Pattern graph specifiers
@@ -98,6 +101,7 @@ module Deployment {
       rateGroup1.RateGroupMemberOut[1] -> fileDownlink.Run
       rateGroup1.RateGroupMemberOut[2] -> systemResources.run
       rateGroup1.RateGroupMemberOut -> adapter.schedIn
+      rateGroup1.RateGroupMemberOut -> bufferManager.schedIn
 
       # Rate group 2
       rateGroupDriver.CycleOut[Ports_RateGroups.rateGroup2] -> rateGroup2.CycleIn
@@ -134,6 +138,12 @@ module Deployment {
       # Add here connections to user-defined components
       packetSender.packetTransfer -> adapter.packetIn
       adapter.transferResultOut -> packetSender.transferResult
+
+      adapter.I2CWriteReadOut -> linuxI2cDriver.write
+      adapter.SPIReadWriteOut -> linuxSpiDriver.SpiReadWrite
+
+      adapter.allocate -> bufferManager.bufferGetCallee
+      adapter.deallocate -> bufferManager.bufferSendIn
     }
 
   }

@@ -11,8 +11,23 @@ module OBC_project {
         @ Port for returning the transfer result
         output port transferResultOut: PacketTransferResult
 
+        @ Port for writing buffer to the I2C driver
+        output port I2CWriteReadOut: Drv.I2c 
+
+        @ Port for writing and reading buffer to the SPI driver
+        output port SPIReadWriteOut: Drv.SpiReadWrite
+
+        @ Allocation port for a buffer
+        output port allocate: Fw.BufferGet
+
+        @ Deallocation port for buffers
+        output port deallocate: Fw.BufferSend
+
         @ The rate group scheduler input
         sync input port schedIn: Svc.Sched
+
+        @ Allocation failed event
+        event MemoryAllocationFailed() severity warning low id 0 format "Failed to allocate memory"
 
         event TRANSFER_FINISHED(
             packet: DataPacket

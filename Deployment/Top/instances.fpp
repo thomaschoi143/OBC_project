@@ -129,4 +129,10 @@ module Deployment {
 
   instance systemResources: Svc.SystemResources base id 0x4A00
 
+  instance bufferManager: Svc.BufferManager base id 0x4B00
+
+  instance linuxI2cDriver: Drv.LinuxI2cDriver base id 0x4C00
+
+  instance linuxSpiDriver: Drv.LinuxSpiDriver base id 0x4D00
+
 }

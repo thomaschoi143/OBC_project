@@ -39,6 +39,7 @@
 
     <packet name="DriveTlm" id="3" level="1">
         <channel name="blockDrv.BD_Cycles"/>
+        <channel name="linuxSpiDriver.SPI_Bytes"/>
     </packet>
 
     <packet name="SystemRes1" id="5" level="2">
@@ -71,6 +72,14 @@
         <channel name="systemResources.CPU_13"/>
         <channel name="systemResources.CPU_14"/>
         <channel name="systemResources.CPU_15"/>
+    </packet>
+
+    <packet name="BufferManager" id="8" level="3">
+        <channel name="bufferManager.CurrBuffs"/>
+        <channel name="bufferManager.HiBuffs"/>
+        <channel name="bufferManager.TotalBuffs"/>
+        <channel name="bufferManager.EmptyBuffs"/>
+        <channel name="bufferManager.NoBuffs"/>
     </packet>
 
     <!-- Ignored packets -->

@@ -1,0 +1,21 @@
+Topology Deployment.Deployment:
+  Deployment.blockDrv.BufferIn
+  Deployment.blockDrv.BufferOut
+  Deployment.cmdSeq.seqCancelIn
+  Deployment.cmdSeq.seqDone
+  Deployment.cmdSeq.seqRunIn
+  Deployment.comm.poll
+  Deployment.comm.ready
+  Deployment.downlink.comStatusIn
+  Deployment.downlink.comStatusOut
+  Deployment.fileDownlink.FileComplete
+  Deployment.fileDownlink.SendFile
+  Deployment.health.WdogStroke
+  Deployment.linuxI2cDriver.read
+  Deployment.linuxI2cDriver.write
+  Deployment.prmDb.getPrm
+  Deployment.prmDb.setPrm
+  Deployment.tlmSend.TlmGet
+  Deployment.uplink.framedPoll
+  Deployment.uplink.schedIn
+

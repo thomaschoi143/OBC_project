@@ -4,3 +4,4 @@ Deployment/build-artifacts/
 Deployment/build-fprime-automatic-native/
 Deployment/logs/
 fprime/
+.vscode/

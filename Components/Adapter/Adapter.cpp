@@ -7,6 +7,8 @@
 #include <Components/Adapter/Adapter.hpp>
 #include <FpConfig.hpp>
 
+#include "Fw/Logger/Logger.hpp"
+
 namespace OBC_project {
 
 // ----------------------------------------------------------------------
@@ -24,8 +26,33 @@ Adapter ::~Adapter() {}
 
 void Adapter ::packetIn_handler(const NATIVE_INT_TYPE portNum,
                                 const OBC_project::DataPacket &packet) {
-    this->log_ACTIVITY_HI_TRANSFER_FINISHED(packet);
-    this->transferResultOut_out(0, 1);
+    const U32 buffer_size = 512;
+    Fw::Buffer inputBuffer = this->allocate_out(0, buffer_size);
+    Fw::Buffer outputBuffer = this->allocate_out(0, buffer_size);
+    Fw::Logger::logMsg("hi\n");
+
+    if (inputBuffer.getSize() < buffer_size ||
+        outputBuffer.getSize() < buffer_size) {
+        this->deallocate_out(0, inputBuffer);
+        this->deallocate_out(0, outputBuffer);
+        this->log_WARNING_LO_MemoryAllocationFailed();
+    } else {
+        inputBuffer.getSerializeRepr().serialize(packet);
+
+        SubSystemEnum ss = packet.getdestination();
+        // if (ss == SubSystemEnum::EPS) {
+        this->I2CWriteReadOut_out(0, 9999, inputBuffer);
+
+        // } else if (ss == SubSystemEnum::COMM) {
+        //     this->SPIReadWriteOut_out(0, inputBuffer, outputBuffer);
+        // }
+
+        this->log_ACTIVITY_HI_TRANSFER_FINISHED(packet);
+        this->transferResultOut_out(0, 1);
+
+        this->deallocate_out(0, inputBuffer);
+        this->deallocate_out(0, outputBuffer);
+    }
 }
 
 void Adapter ::schedIn_handler(const NATIVE_INT_TYPE portNum,
