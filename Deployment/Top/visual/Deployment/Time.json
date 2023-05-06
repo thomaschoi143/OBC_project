@@ -1,0 +1,516 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "adapter",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "blockDrv",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "bufferManager",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "cmdDisp",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "cmdSeq",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "eventLogger",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fatalAdapter",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fileDownlink",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fileManager",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fileUplink",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fileUplinkBufferManager",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "health",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "linuxSpiDriver",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "packetSender",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "timeCaller",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "prmDb",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "rateGroup1",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "rateGroup2",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "rateGroup3",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "systemResources",
+        "inputPorts" : [],
+        "outputPorts" : [
+          {
+            "name" : "Time",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "linuxTime",
+        "inputPorts" : [
+          {
+            "name" : "timeGetPort",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        18,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        17,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        6,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        7,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        9,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        11,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        16,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        14,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        13,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}

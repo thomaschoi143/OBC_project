@@ -1,0 +1,198 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "adapter",
+        "inputPorts" : [
+          {
+            "name" : "packetIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "allocate",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "deallocate",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "I2CWriteReadOut",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "SPIReadWriteOut",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "transferResultOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "bufferManager",
+        "inputPorts" : [
+          {
+            "name" : "bufferGetCallee",
+            "portNumbers" : [
+              0
+            ]
+          },
+          {
+            "name" : "bufferSendIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "linuxI2cDriver",
+        "inputPorts" : [
+          {
+            "name" : "write",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "linuxSpiDriver",
+        "inputPorts" : [
+          {
+            "name" : "SpiReadWrite",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "packetSender",
+        "inputPorts" : [
+          {
+            "name" : "transferResult",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "packetTransfer",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ]
+    ]
+  ]
+}

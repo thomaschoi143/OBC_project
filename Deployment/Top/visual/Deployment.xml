@@ -1,0 +1,26 @@
+<fpl>
+  <connection name="[unused]">
+    <source component="adapter" port="I2CWriteReadOut" type="[unused]" num="0"/>
+    <target component="linuxI2cDriver" port="write" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="adapter" port="SPIReadWriteOut" type="[unused]" num="0"/>
+    <target component="linuxSpiDriver" port="SpiReadWrite" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="adapter" port="allocate" type="[unused]" num="0"/>
+    <target component="bufferManager" port="bufferGetCallee" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="adapter" port="deallocate" type="[unused]" num="0"/>
+    <target component="bufferManager" port="bufferSendIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="adapter" port="transferResultOut" type="[unused]" num="0"/>
+    <target component="packetSender" port="transferResult" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="packetSender" port="packetTransfer" type="[unused]" num="0"/>
+    <target component="adapter" port="packetIn" type="[unused]" num="0"/>
+  </connection>
+</fpl>

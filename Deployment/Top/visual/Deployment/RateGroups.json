@@ -1,0 +1,397 @@
+{
+  "columns" : [
+    [
+      {
+        "instanceName" : "rateGroup3",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupMemberOut",
+            "portNumbers" : [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "health",
+        "inputPorts" : [
+          {
+            "name" : "Run",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "blockDrv",
+        "inputPorts" : [
+          {
+            "name" : "Sched",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "CycleOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "fileUplinkBufferManager",
+        "inputPorts" : [
+          {
+            "name" : "schedIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ],
+    [
+      {
+        "instanceName" : "rateGroupDriver",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "CycleOut",
+            "portNumbers" : [
+              0,
+              1,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "rateGroup1",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupMemberOut",
+            "portNumbers" : [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "instanceName" : "rateGroup2",
+        "inputPorts" : [
+          {
+            "name" : "CycleIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : [
+          {
+            "name" : "RateGroupMemberOut",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "instanceName" : "tlmSend",
+        "inputPorts" : [
+          {
+            "name" : "Run",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "fileDownlink",
+        "inputPorts" : [
+          {
+            "name" : "Run",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "systemResources",
+        "inputPorts" : [
+          {
+            "name" : "run",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "adapter",
+        "inputPorts" : [
+          {
+            "name" : "schedIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "bufferManager",
+        "inputPorts" : [
+          {
+            "name" : "schedIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      },
+      {
+        "instanceName" : "cmdSeq",
+        "inputPorts" : [
+          {
+            "name" : "schedIn",
+            "portNumbers" : [
+              0
+            ]
+          }
+        ],
+        "outputPorts" : []
+      }
+    ]
+  ],
+  "connections" : [
+    [
+      [
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        3,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        4
+      ],
+      [
+        4,
+        4,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        1,
+        0,
+        0
+      ],
+      [
+        4,
+        5,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        1
+      ],
+      [
+        4,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        2
+      ],
+      [
+        4,
+        2,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        0,
+        0,
+        3
+      ],
+      [
+        4,
+        3,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  ]
+}

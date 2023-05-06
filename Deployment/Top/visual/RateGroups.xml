@@ -1,0 +1,54 @@
+<fpl>
+  <connection name="[unused]">
+    <source component="blockDrv" port="CycleOut" type="[unused]" num="0"/>
+    <target component="rateGroupDriver" port="CycleIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup1" port="RateGroupMemberOut" type="[unused]" num="0"/>
+    <target component="tlmSend" port="Run" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup1" port="RateGroupMemberOut" type="[unused]" num="1"/>
+    <target component="fileDownlink" port="Run" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup1" port="RateGroupMemberOut" type="[unused]" num="2"/>
+    <target component="systemResources" port="run" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup1" port="RateGroupMemberOut" type="[unused]" num="3"/>
+    <target component="adapter" port="schedIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup1" port="RateGroupMemberOut" type="[unused]" num="4"/>
+    <target component="bufferManager" port="schedIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup2" port="RateGroupMemberOut" type="[unused]" num="0"/>
+    <target component="cmdSeq" port="schedIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup3" port="RateGroupMemberOut" type="[unused]" num="0"/>
+    <target component="health" port="Run" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup3" port="RateGroupMemberOut" type="[unused]" num="1"/>
+    <target component="blockDrv" port="Sched" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroup3" port="RateGroupMemberOut" type="[unused]" num="2"/>
+    <target component="fileUplinkBufferManager" port="schedIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroupDriver" port="CycleOut" type="[unused]" num="0"/>
+    <target component="rateGroup1" port="CycleIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroupDriver" port="CycleOut" type="[unused]" num="1"/>
+    <target component="rateGroup2" port="CycleIn" type="[unused]" num="0"/>
+  </connection>
+  <connection name="[unused]">
+    <source component="rateGroupDriver" port="CycleOut" type="[unused]" num="2"/>
+    <target component="rateGroup3" port="CycleIn" type="[unused]" num="0"/>
+  </connection>
+</fpl>
