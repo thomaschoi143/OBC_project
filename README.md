@@ -5,7 +5,9 @@ fprime-util build -j4
 
 Deploy:
 cd Deployment
+
 fprime-util build -j4
+
 fprime-gds
 
 F´ (F Prime) is a component-driven framework that enables rapid development and deployment of spaceflight and other embedded software applications.
