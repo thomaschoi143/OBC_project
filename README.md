@@ -1,6 +1,11 @@
 # OBC_project F' project
 
 How to use:
+
+clone this repository
+
+clone the fprime repository
+
 fprime-util build -j4
 
 Deploy:
